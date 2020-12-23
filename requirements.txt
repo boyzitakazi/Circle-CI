@@ -1,0 +1,6 @@
+#!/bin/bash -eo pipefail
+if true; then
+  pip install --user -r requirements.txt
+else
+  pip install -r requirements.txt
+fi
